@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- For carousel -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> --> -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+      <!-- NavBar Collapsable -->
+      <script src="http://code.jquery.com/jquery-3.1.1.js"
+      integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+      crossorigin="anonymous"></script>  <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <!-- The link below is needed for the icons in the footer -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans:400i&display=swap" rel="stylesheet">
+    <title>Hooked On Coding!</title>
+
+  </head>
+  <body>
+  </head>
+  <!-- This project includes JQuery and JavaScript -->
+  <style>
+    .headerNav{
+      font-family: 'Kaushan Script', cursive;
+    }
+  </style>
+    <!-- Navbar content -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <a class="navbar-brand headerNav" href="file:///Users/JesusSanchez/Desktop/Bootstrap/DevThis.html">
+            <img src="longhorn.png" length="40" width="40" alt="">Dev This</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Goes into the navbar-collapse; goes into the hamburger  -->
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="file:///Users/JesusSanchez/Desktop/Bootstrap/DevThis.html"
+                >Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">
+                  Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="file:///Users/JesusSanchez/Desktop/Bootstrap/Locations.html">Locations</a>
+              </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+
+
+<br><br><br>
+<style>
+  .classLocations{
+font-family: 'Press Start 2P', cursive;
+font-size: 150%;
+  }
+  .classParagraphs{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40%;
+}
+.containerImage {
+  position: relative;
+  /*width: 50%; */
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.containerImage:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+
+<!--  -->
+<div class="container">
+  <div class="jumbotron">
+    <h2>All Available Right Now!</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+<br>
+<div class="container classLocations">
+<div class="container shadow p-3 mb-5 bg-white rounded signUp">
+  <a><img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Toronto_at_Dusk_-a.jpg/1599px-Toronto_at_Dusk_-a.jpg"
+    width="200" length="200" alt="..." class="img-thumbnail"> Toronto, OT</a>
+      <div class="TorontoP classParagraphs">
+        <p>Toronto is home to the NBA Champions Toronto Raptors, internationally respected and well recognized musician Drake, and now home to the best coding boot camp money can buy Dev This! Click on the button to find out more about the location.</p>
+      </div>
+    </div>
+</div>
+  <div class="container classLocations">
+  <div class="container shadow p-3 mb-5 bg-white rounded signUp">
+  <a><img src="https://www.cureduchenne.org/wp-content/uploads/2019/06/DetroitMI.jpg"
+    width="200" length="200" alt="..." class="img-thumbnail"> Detroit, MI</a>
+  </div>
+    </div>
+
+    <div class="container classLocations">
+    <div class="container shadow p-3 mb-5 bg-white rounded signUp">
+    <a><img src="https://www.castlehillfitness.com/wp-content/uploads/2019/02/Castle-Hill-Fitness-Downtown-Austin-Skyline-Photo.jpg"
+      width="200" length="200" alt="..." class="img-thumbnail"> Austin, TX</a>
+      <div class="AustinP classParagraphs">
+        <p>Howdy Y'all! We have classes available in the beautiful city of Austin, Texas home known for their Longhorns football team, Mathew McConaughey, BBQ, and being the live music captial of the world! Where else would a coder want to be besides the Silicon Valley of the South. Dell, IBM, Accenture, Oracle, Apple, Microsoft and countless start ups call Austin, Texas home.</p>
+      </div>
+    </div>
+      </div>
+
+      <div class="container classLocations">
+      <div class="container shadow p-3 mb-5 bg-white rounded signUp">
+      <a><img src="https://www.gpgmiami.net/wp-content/uploads/2017/03/shutterstock_346240250.jpg"
+        width="200" length="200" alt="..." class="img-thumbnail"> Miami, FL</a>
+        <div class="MiamiP classParagraphs">
+          <!-- the &#12.. code is for music notes  -->
+          <p> &#127926; "Welcome to Miami where the heat is on!" &#127926; Miami is a beatiful cultural hub filled with music, great cuisine and beatiful beaches. The Sunshine state has so much to offer including some of the largest companies in the world. Miami is hub to many large companies like Amazon, Accenture, Capital One, Bank of America, and many more. The Sunshine state has a lot to offer with companies like Universal Resorts and Parks, Disney, ESPN, Telemundo Universal, etc. Give yourself the lead by studying at out Miami, Florida location!</p>
+        </div>
+      </div>
+
+    </div>
+</div>
+
+
+        <!-- Footer -->
+        <!-- Footer -->
+        <footer class="page-footer font-small special-color-dark pt-4">
+
+          <!-- Footer Elements -->
+          <div class="container">
+
+            <!-- Social buttons -->
+            <ul class="list-unstyled list-inline text-center">
+              <li class="list-inline-item">
+                <a class="btn-floating btn-fb mx-1">
+                  <i class="fab fa-facebook-f"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-tw mx-1">
+                  <i class="fab fa-twitter"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-gplus mx-1">
+                  <i class="fab fa-google-plus-g"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-li mx-1">
+                  <i class="fab fa-linkedin-in"> </i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-dribbble mx-1">
+                  <i class="fab fa-dribbble"> </i>
+                </a>
+              </li>
+            </ul>
+            <!-- Social buttons -->
+              <center><img src="longhorn.png" width="50" lenght="50"></center>
+          </div>
+          <!-- Footer Elements -->
+
+
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="file:///Users/JesusSanchez/Desktop/Bootstrap/DevThis.html"> devthis.com</a>
+            <br>Developed with <img src="http://obscureproblemsandgotchas.com/wp-content/uploads/2018/06/bootstrap-stack-e1530246058846.png" href="https://www.getbootstrap.com" width="20" lenngth="20"  alt=""><img src="developedWith.png" width="40" lenngth="40" alt=""><img src="jQuery.png" width="30" lenngth="30" alt="">
+          </div>
+          <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+        <!-- Footer -->
+</html>
